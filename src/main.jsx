@@ -16,6 +16,7 @@ import FontPage from './Page/FontPage.jsx';
 import Profile from './Component/Menu/Profile.jsx';
 import MassageDashboard from './Component/Massage/MassageDashboard.jsx';
 import PictureUploadUI from './Component/PictureUploadUI/PictureUploadUI.jsx';
+import FriendPage from './Component/Friend/FriendPage.jsx';
 
 
 const router = createBrowserRouter([
@@ -47,7 +48,11 @@ const router = createBrowserRouter([
   },
   {
     path: "PictureUploadUI",
-    element: <PictureUploadUI></PictureUploadUI>
+    element: <PictureUploadUI></PictureUploadUI>,
+  },
+  {
+    path: "FriendPage",
+    element: <FriendPage></FriendPage>,
   }
   // {
   //   path: "ProfileUploadUI",

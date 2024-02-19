@@ -75,7 +75,12 @@ const SideBar = () => {
         setSerchOption(false)
     }
 
+    // ============== Friend area start ============
+    // =============================================
 
+    const friendSidebarBTN =() =>{
+        naviget('/FriendPage')
+    }
 
     //============ Massage start ===============
     // =========================================
@@ -178,8 +183,8 @@ const SideBar = () => {
                             <p className='ml-[30px] text-[22px] font-sansita font-semibold '>Home</p>
                         </div>
 
-                        {/* ======================= Serch area stat =======================
-                    ====================================================================*/}
+                        {/* ======================= Serch area start =======================
+                        ====================================================================*/}
 
                         <div onClick={serchSidebarBTN} className="flex text-center mt-[25px] items-center py-[6px] pl-[40px] rounded-[8.6px]       
                             hover:bg-crossHoverBG  hover:duration-700   cursor-pointer  ">
@@ -225,8 +230,9 @@ const SideBar = () => {
                                 </div>
                             </div>
                         }
-
-                        <div className='flex text-center mt-[25px] items-center py-[6px] pl-[40px] rounded-[8.6px]       
+                        {/* ======================= Friend area start =======================
+                        ====================================================================*/}
+                        <div onClick={friendSidebarBTN} className='flex text-center mt-[25px] items-center py-[6px] pl-[40px] rounded-[8.6px]       
                             hover:bg-crossHoverBG  hover:duration-700   cursor-pointer '>
 
                             <img src={friendsIcon} alt="" className='w-[40px] h-[40px]  ' />
@@ -234,9 +240,9 @@ const SideBar = () => {
                         </div>
 
 
-                        {/* =============Massage =========== */}
-                        {/* ================================ */}
 
+                       {/* ======================= Massage area start =======================
+                        ====================================================================*/}
                         <div>
                             <div onClick={massageItem} className='flex text-center mt-[25px] items-center py-[6px] pl-[40px] rounded-[8.6px]       
                             hover:bg-crossHoverBG  hover:duration-700   cursor-pointer '>
@@ -347,7 +353,8 @@ const SideBar = () => {
                             <p className='ml-[30px] text-[22px]  font-sansita font-semibold '>Create Post </p>
                         </div>
 
-                        {/* ============ Menu ================== */}
+                        {/* ======================= Menu area start =======================
+                        ====================================================================*/}
                         <div>
                             <div onClick={menuItem} className='flex text-center mt-[25px] items-center py-[6px] pl-[40px] rounded-[8.6px]       
                             hover:bg-crossHoverBG  hover:duration-700   cursor-pointer '>
