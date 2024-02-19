@@ -133,7 +133,7 @@ const Registration = () => {
                 </div>
 
                 <div className='mt-[20px] text-[#2f3542] '>
-                  <p className='font-Raleway font-bold text-[16px] pl-[31px] pb-[5px] '>MPassword :</p>
+                  <p className='font-Raleway font-bold text-[16px] pl-[31px] pb-[5px] '>Password :</p>
                   <div onChange={inputPassword} className=' border rounded-[8.6px] border-[#2f3542] py-[12px]  relative '>
                     {
                       passwordShow ?

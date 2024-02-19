@@ -21,7 +21,7 @@ const FontPage = () => {
           <div className='w-3/6'>
             <div className='flex justify-center items-center  '>
               <img src={MassageIcon} alt="" className='w-[300px] h-[300px] mt-[70px] ' />
-              <p className='absolute bottom-[190px] left-[100px] font-Raleway font-bold text-6xl text-[#4cd137]  '>Welcome To Mingle-Chat</p>
+              <p className='absolute bottom-[190px] left-[100px] font-lobster font-bold text-6xl text-[#4cd137]  '>Welcome To Chatting - Friends</p>
 
             </div>
           </div>
